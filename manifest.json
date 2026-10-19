@@ -1,0 +1,176 @@
+{
+ "name": "Omni Moon streaming demo",
+ "built": "2026-10-19",
+ "unity": "6000.6.6f1",
+ "target": "WebGPU only, Brotli with JavaScript decompression fallback",
+ "packsLocation": "../MoonPacks/ (relative to WebGPU/index.html)",
+ "data": "NASA LRO LOLA (elevation) and LROC (color), public domain; see NOTICE.md",
+ "totalBytes": 51983358,
+ "files": [
+  {
+   "path": ".nojekyll",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "MoonPacks/moon-albedo-f0.otp",
+   "bytes": 2983353,
+   "sha256": "64e89f8043d4563367e40346f5c8644549d859d8ead1356857b68d46507c11c9"
+  },
+  {
+   "path": "MoonPacks/moon-albedo-f1.otp",
+   "bytes": 2983352,
+   "sha256": "3bfd014d57754b7b75cb70c4df4643bdbeeefbe24d825be35b66bb909bdce806"
+  },
+  {
+   "path": "MoonPacks/moon-albedo-f2.otp",
+   "bytes": 2983356,
+   "sha256": "b3d203ed2e524035bbbb23dfeac366e09b8afc95ba6d98c69f02304c4be07f61"
+  },
+  {
+   "path": "MoonPacks/moon-albedo-f3.otp",
+   "bytes": 2983362,
+   "sha256": "06d26513c8e3a4f4b6053266028abd73d141d15027ef54f0a53c2c7be181ce20"
+  },
+  {
+   "path": "MoonPacks/moon-albedo-f4.otp",
+   "bytes": 2983365,
+   "sha256": "14d102e973cbcf589e80dece98884c3eb556db9bb9a37ea630bed7d1bc3a519a"
+  },
+  {
+   "path": "MoonPacks/moon-albedo-f5.otp",
+   "bytes": 2983355,
+   "sha256": "e9de419a307fb3afd50a62163dfe824978cd9025845a6ab991f6e970d9304a48"
+  },
+  {
+   "path": "MoonPacks/moon-height-f0.otp",
+   "bytes": 2191798,
+   "sha256": "ac276694ce86cd45f96bc8e516888d556c31b491ef01f728c085f2fa788f3cc4"
+  },
+  {
+   "path": "MoonPacks/moon-height-f1.otp",
+   "bytes": 2504021,
+   "sha256": "166d01619f47e2db7cbfae96527e1ee3081fff1d2f6c2391ee930e0a9e8984d8"
+  },
+  {
+   "path": "MoonPacks/moon-height-f2.otp",
+   "bytes": 2411199,
+   "sha256": "78fce796e0ca91c4aaeab9b1877f1584a3d17b0169fa02fd1a437722cf49c287"
+  },
+  {
+   "path": "MoonPacks/moon-height-f3.otp",
+   "bytes": 2481566,
+   "sha256": "53518c8ae812de1817fca104e7ee1214711949c7a8b11a641d25e098437dee78"
+  },
+  {
+   "path": "MoonPacks/moon-height-f4.otp",
+   "bytes": 2432876,
+   "sha256": "0a6fe71bca78080f0dc2f2cfa72c13c3f56b8cf2faf44f811a6038071c1b67ab"
+  },
+  {
+   "path": "MoonPacks/moon-height-f5.otp",
+   "bytes": 2361955,
+   "sha256": "c574868eb116ded53cb53d448eee6c0da9457503c65280f5576844de33574a9c"
+  },
+  {
+   "path": "NOTICE.md",
+   "bytes": 781,
+   "sha256": "d48288746729b3a67f51520c7218a37e2d51a2035434590a00f95609609fcc16"
+  },
+  {
+   "path": "README.md",
+   "bytes": 1721,
+   "sha256": "ce3e4225aad93ce606895aa233d92eabdf69b6dd25df6d2ad7ffa71dd87777a7"
+  },
+  {
+   "path": "WebGPU/Build/WebGPU.data.unityweb",
+   "bytes": 8036016,
+   "sha256": "e7ae7312be0b61a202cc957e8e421ece9719c953093ce81caa3284e46fe6ec26"
+  },
+  {
+   "path": "WebGPU/Build/WebGPU.framework.js.unityweb",
+   "bytes": 82608,
+   "sha256": "ba890def23074f29c501adb0b377136b899c547fc3b2c4ff5eb6a89f4b142ed4"
+  },
+  {
+   "path": "WebGPU/Build/WebGPU.loader.js",
+   "bytes": 118704,
+   "sha256": "8dda26d15599813fa376f1b65aa78f9ebec3e429d4c4f59550dfdd36ad37d497"
+  },
+  {
+   "path": "WebGPU/Build/WebGPU.wasm.unityweb",
+   "bytes": 11438159,
+   "sha256": "da47ecf0b93cb10e2ff445bca7a1e343e80f8178f18c8a7d489443c179146daf"
+  },
+  {
+   "path": "WebGPU/TemplateData/MemoryProfiler.png",
+   "bytes": 665,
+   "sha256": "0ce87be20d0c24ab6cb73b57de2004da261cc2a641e69319c6ae3fe11fc85483"
+  },
+  {
+   "path": "WebGPU/TemplateData/favicon.ico",
+   "bytes": 2305,
+   "sha256": "9c13beb90ee8f70580d52a21d5233970d1c89e71e4a34a462c22610941c3c77f"
+  },
+  {
+   "path": "WebGPU/TemplateData/fullscreen-button.png",
+   "bytes": 175,
+   "sha256": "21221581673a54b8139d408d4a3f8d2b879e86827d4b6fc53b995ff7a99ee3e9"
+  },
+  {
+   "path": "WebGPU/TemplateData/progress-bar-empty-dark.png",
+   "bytes": 96,
+   "sha256": "bbee7131afe8a3365906240d89184dc86234c119467f390bc4bc6802328fdb4d"
+  },
+  {
+   "path": "WebGPU/TemplateData/progress-bar-empty-light.png",
+   "bytes": 109,
+   "sha256": "143696c060ad43d6c30f19ff5f49000927a139a2a1e4c9f45fafaa2b90d7d2be"
+  },
+  {
+   "path": "WebGPU/TemplateData/progress-bar-full-dark.png",
+   "bytes": 74,
+   "sha256": "3306a6244dcb3926fca38a28e3ced589df8ff1beed955eb17c0bbf01c918bc62"
+  },
+  {
+   "path": "WebGPU/TemplateData/progress-bar-full-light.png",
+   "bytes": 84,
+   "sha256": "12395ea785480c5cdf12fade6e6cbf49666d5bb1cef7240c113dbcba6bdc5c87"
+  },
+  {
+   "path": "WebGPU/TemplateData/style.css",
+   "bytes": 1666,
+   "sha256": "6ecc2390eb4fadd552622770f677d344c5393620b6c66511c17ff0805eea8aa2"
+  },
+  {
+   "path": "WebGPU/TemplateData/unity-logo-dark.png",
+   "bytes": 3042,
+   "sha256": "c1b72d26c096487dabc948b54bc203f8dac7ed4e3f5733918798e858acb4b159"
+  },
+  {
+   "path": "WebGPU/TemplateData/unity-logo-light.png",
+   "bytes": 3077,
+   "sha256": "002990aea0d946833cadc1519d5b7e50a4570bd537a0517dd79a59d3eec84da7"
+  },
+  {
+   "path": "WebGPU/TemplateData/unity-logo-title-footer.png",
+   "bytes": 1151,
+   "sha256": "9e8b3bdb67c2446d16362fe59449d892100931dbbadfe6a9d923a4142b57a79f"
+  },
+  {
+   "path": "WebGPU/TemplateData/webmemd-icon.png",
+   "bytes": 1670,
+   "sha256": "c56f5494640cedda273aad38d58e6ab9da625d5b3f4d875c0ff92c6192a569c2"
+  },
+  {
+   "path": "WebGPU/index.html",
+   "bytes": 6383,
+   "sha256": "2bd5e4f75b575d4d872bbada501b75a221d29d6693856b3b3736b7a4360a61ac"
+  },
+  {
+   "path": "index.html",
+   "bytes": 1314,
+   "sha256": "5ad6bf40921989c8319245546375a13e2ad97fe639d9f09983e5cad0a4c4bfec"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omni Moon - streaming demo</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:42rem;margin:3rem auto;padding:0 1rem;line-height:1.6;color:#1b1f23;background:#fff}
+  @media (prefers-color-scheme:dark){body{color:#e6e6e6;background:#101214}a{color:#7cc4ff}}
+  h1{font-size:1.5rem}
+  .go{display:inline-block;margin:1rem 0;padding:.6rem 1.2rem;border:1px solid currentColor;border-radius:.4rem;text-decoration:none}
+  small{opacity:.75}
+</style>
+</head>
+<body>
+<h1>Omni Moon - streaming demo</h1>
+<p>A real-data Moon (NASA LRO LOLA heights, LROC colors), streamed over HTTP Range from this site and refined from the whole globe down to the ground.
+The HUD shows how much data has arrived, the number of requests and the cache hits.</p>
+<p><a class="go" href="WebGPU/index.html">Open the demo</a></p>
+<p>Requires a browser with WebGPU (recent desktop Chrome or Edge). The first run downloads about 12 MB while you fly; a second visit reuses the browser cache (IndexedDB).</p>
+<p><small>Data: NASA LRO LOLA and LROC (public domain), see <a href="NOTICE.md">NOTICE</a>. File list and checksums: <a href="manifest.json">manifest.json</a>.</small></p>
+</body>
+</html>
